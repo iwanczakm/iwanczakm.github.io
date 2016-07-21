@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+      <metatag charset=:"utf-8">
+      <title> My first website</title>
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'/>
+      <link rel="stylesheet" href="./css/styles.css"/>
+      <script type="text/javascript" src="./js/scripts.js"> </script>
+      
+    </head>
+    <body onload="startTime()">
+    
+      <div class="main-block">
+        <div class="avatar-image"></div>
+        <h1 class="name-header">Iwanczak Malgorzata Anna</h1>
+        <h2 class="sub-header">Katowice Poland</h2>
+        <div id="clockdate">
+            <div class= "clockdate-wrapper">
+                <div id= "clock"> </div>
+                <div id="date"></div>
+                </div>
+                </div>
+        <p class="full info">I am veterinary medicine student at University of Life Sciences in Lublin. Member of Polish Folk Song & Dance group Jawor. 
+        I am starting my education in programing with CodersTrust. I like to hike in the mountain and run - of course always with my dog. </p>
+        <h3 class="info-header">Education</h3>
+          <ul class="list-info">
+              <li>University of Life Sciences in Lublin - Faculty of Veterinary Medicine</li>
+              <li>Nicolaus Copernicus Bilingual Highschcool</li>
+          </ul>
+        <h3 class="info-header">Work Experience</h3>
+          <ul class="list-info">
+              <li>Employee of Restaurant Disneyland Resort Paris</li>
+          </ul>
+        
+          <ul class="socials">
+              <li><a class="social-image" href="https://www.facebook.com/gosia.iwanczak" target="_blank"><img src="images/face%20book.png"/></a></li>
+              <li><a  class="social-image" href="https://pl.pinterest.com/gosiaiwanczak/" target="_blank"><img src="images/pinterest.png"/></a></li>
+              <li><a class="social-image" href="https://twitter.com/?lang=pl" target="_blank"><img src="images/twitter.png"/></a></li>
+          </ul>
+        
+          </div>
+    </body>
+</html>
