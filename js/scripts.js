@@ -17,8 +17,7 @@ function startTime() {
     var curDay = today.getDate();
     var curMonth = months[today.getMonth()];
     var curYear = today.getFullYear();
-    var date = curWeekDay + "," + curDay + " " +curMonth+ " " curYear;
-    document.getElementById("date").innerHTML = date;
+    var date = curWeekDay + "," + curDay + " " +curMonth+ " "+curYear;
     
     var time = setTimeout(function(){startTime() }, 500); 
 }
